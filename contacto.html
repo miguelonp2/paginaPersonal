@@ -1,15 +1,16 @@
 <!------URL: https://github.com/TheBridge-FullStackDeveloper/proyectos-pagina-personal----->
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Inicio</title>
+    <title>Contacto</title>
     <link rel="stylesheet" href="style.css">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap" rel="stylesheet">
 </head>
+
 <body>
     <nav>
         <ul>
@@ -18,5 +19,23 @@
             <li><a href="contacto.html">Contacto</a></li>
         </ul>
     </nav>
+    <section id="formulario">
+        <h2>Formulario de Contacto</h2>
+        <form action="post">
+            <div>
+                <label for="nombreContacto">Nombre: </label>
+                <input type="text" id="nombreContacto">
+            </div>
+            <div>
+                <label for="emailContacto">Email: </label>
+                <input type="email" id="emailContacto">
+            </div>
+            <div>
+                <label for="mensajeContacto">Asunto: </label>
+                <textarea id="mensajeContacto" cols="30" rows="10"></textarea>
+            </div>
+        </form>
+    </section>
 </body>
+
 </html>
