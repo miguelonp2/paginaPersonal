@@ -1,18 +1,22 @@
 
 body{
-    margin: 0 20px 0 20px;
     font-family: 'Oswald';
     font-size: large;
+    margin: 3%;
 }
-
+ .active{
+    font-weight: bold;
+    color: rgb(209, 149, 38);
+ }
 
 nav ul{
     display: flex;
     list-style-type: none;
     justify-content: space-around;
-}
+    padding: 0;
 
-a{
+}
+nav a{
     text-decoration: none;
     color: darkcyan;
 }
@@ -25,44 +29,44 @@ form div{
     display: flex;
     flex-direction: column;
 }
-#sobreMi{
-    display: flex;
-    flex-direction: column;
+.logo{
+    width: 80px;
 }
-#sobreMi img{
-    display: none;
+#bloques{
+    margin-top: 50px;
+}
+.bloque a{
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    background-color: rgb(221, 221, 221);
+    margin: 25px;
+    border-radius: 10px;
+    color: black;
+    text-decoration: none;
+    font-size: 25px;
+}
+.bloque a:hover{
+    text-decoration: none;
+    color: darkcyan;
+    background-color: rgb(245, 223, 181);
+}
+.bloque a img, h3{
+    margin: 15px;
 }
 
-.estudio img{
-    width: 250px;
-}
-#experienciaLaboral{
-    display: flex;
-    flex-wrap: wrap;
-}
 
-.empleo{
-    display: flex;
-    width: 100%;
-}
-.empleo img{
-    width: 140px;
-    margin-right: 10px;
-}
 
 @media screen and (min-width: 900px){
     body{
-        margin: 0 10% 0 10%;
+        margin: 0 20% 0 20%;
     }
-    #sobreMi{
-        flex-direction: row;
-    }
-    #sobreMi img{
-        width: 300px;
-        display: inline;
-        margin-right: 25px;
-    }
-    .empleo{
+    .bloque{
         width: 50%;
+
+    }
+    #bloques{
+        display: flex;
+        justify-content: center;
     }
 }
