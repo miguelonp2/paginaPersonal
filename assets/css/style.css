@@ -28,6 +28,7 @@ a:hover{
 form div{
     display: flex;
     flex-direction: column;
+    margin-top: 10px;
 }
 .logo{
     width: 80px;
@@ -54,7 +55,32 @@ form div{
 .bloque a img, h3{
     margin: 15px;
 }
-
+button{
+    width: 100%;
+    height: 40px;
+    font-family: 'Oswald';
+    font-size: 20px;
+    background-color: darkcyan;
+    color: white;
+    border-style: none;
+    border-radius: 5px;
+}
+.iconoMiniatura{
+    height: 40px;
+}
+.trabajo div{
+    display: flex;
+    align-items: center;
+}
+.fechas{
+    font-style: italic;
+    color: grey;
+    margin: 0px;
+    font-size: medium;
+}
+footer{
+    text-align: center;
+}
 
 
 @media screen and (min-width: 900px){
@@ -68,5 +94,22 @@ form div{
     #bloques{
         display: flex;
         justify-content: center;
+    }
+    #presentacion{
+        margin-top: 120px;
+    }
+    .trabajo div{
+        display: flex;
+        align-items: center;
+    }
+    .trabajo{
+        width: calc(100px + 27%);
+        margin: 10px;
+    }
+    #trabajos{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
     }
 }

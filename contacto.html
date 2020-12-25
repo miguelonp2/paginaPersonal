@@ -6,7 +6,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contacto</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="assets/css/style.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap" rel="stylesheet">
 </head>
@@ -16,11 +16,12 @@
         <ul>
             <li><a href="index.html">Inicio</a></li>
             <li><a href="biografia.html">Biografía</a></li>
-            <li><a href="contacto.html">Contacto</a></li>
+            <li><a class="active" href="contacto.html">Contacto</a></li>
         </ul>
     </nav>
     <section id="formulario">
-        <h2>Formulario de Contacto</h2>
+        <h1>¿Hablamos?</h1>
+        <p>Si tienes alguna oportunidad laboral que pueda ser interesante, no dudes en ponerte en contacto conmigo.</p>
         <form action="post">
             <div>
                 <label for="nombreContacto">Nombre: </label>
@@ -34,6 +35,10 @@
                 <label for="mensajeContacto">Asunto: </label>
                 <textarea id="mensajeContacto" cols="30" rows="10"></textarea>
             </div>
+            <div>
+                <button>¡Contactar!</button>
+            </div>
+
         </form>
     </section>
 </body>
