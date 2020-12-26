@@ -22,7 +22,7 @@
     <section id="formulario">
         <h1>¿Hablamos?</h1>
         <p>Si tienes alguna oportunidad laboral que pueda ser interesante, no dudes en ponerte en contacto conmigo.</p>
-        <form action="post">
+        <form>
             <div>
                 <label for="nombreContacto">Nombre: </label>
                 <input type="text" id="nombreContacto">
@@ -36,11 +36,16 @@
                 <textarea id="mensajeContacto" cols="30" rows="10"></textarea>
             </div>
             <div>
-                <button>¡Contactar!</button>
+                <button id="enviarFormulario">¡Contactar!</button>
             </div>
-
         </form>
     </section>
+    <section id="informacionEnviada">
+        <p id="nombre"></p>
+        <p id="email"></p>
+        <p id="mensaje"></p>
+    </section>
+    <script src="assets/js/main.js"></script>
 </body>
 
 </html>
