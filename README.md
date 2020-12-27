@@ -1,2 +1,8 @@
 # paginaPersonal
-Proyecto de página personal para cerrar el bloque de CSS &amp; HTML 
+Página personal compuesta de los siguientes ficheros:
+| Nombre fichero | Tipo fichero | Descripción |
+| index | HTML | presentación y enlaces |
+| biografia | HTML | experiencia laboral |
+| contacto | HTML | formulario de contacto |
+| style | CSS | hoja de estilos |
+| main | JS | javascript para el formulario |
