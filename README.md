@@ -9,4 +9,4 @@ Página personal compuesta de los siguientes ficheros:
 | style | CSS | hoja de estilos |
 | main | JS | javascript para el formulario |
 
-[title](https://miguelonp2.github.io/paginaPersonal)
+URL: [GitHub Pages - Página Personal](https://miguelonp2.github.io/paginaPersonal)
